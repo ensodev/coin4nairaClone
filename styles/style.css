@@ -1,0 +1,144 @@
+html{
+ /*   background-image: url(../back.jpg) no-repeat center fixed;
+    background-size: cover; */      
+}
+
+body{
+    text-align: center;
+    background-color: black;
+    color:white;
+}
+
+/* up menu section */
+.container-menu-up{
+    margin-top: 1%;
+}
+
+.mainmenu{
+    text-align: center;
+    background-color: black;
+    color:white;
+}
+
+.list-items:hover{
+	color:red;
+}
+
+
+.artic:hover{
+	color:green;
+	
+}
+
+.list-items{
+    list-style: none;
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin: 10px 20px;
+    padding: 1px 35px;
+}
+
+/* logo section */
+#heading-main{
+    font-size: 3.5em;
+    padding: 5px 1px;
+    text-align: center;
+}
+ 
+ h1 span{
+    color:red;
+}
+
+
+/* article section */
+
+@media(min-width: 700px){
+
+.container-articles{
+        display: flex;
+}
+
+}
+.container-articles{
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: 1.65;
+    background-color: yellow;
+   /* border-color:olive;
+    border-style: solid;*/
+}
+
+.article1{
+    flex: 1;
+    color:red;
+    background-color: #121212;
+    border:1px;
+    padding: 1px 5px;
+    border-style: solid;
+    border-color: #121212;
+    
+}
+
+.article2{
+    flex: 2;
+    background-color: #222222;
+    border:1px;
+    padding: 1px 5px;
+    border-style: solid;
+    border-color: #222222;
+    
+}
+.article3{
+    flex: 1;
+    color:red;
+    background-color: #121212;
+    border:1px;
+    padding: 1px 5px;
+    border-style: solid;
+    border-color: #121212;
+    
+}
+
+#first-heading, #third-heading{
+    background-color: gray;
+    color: white;
+}
+
+#second-heading{
+    color:red;
+    border-top: #222222;
+    border-right: #222222;
+    border-bottom: #121212;
+    border-left: #222222;
+    border-style: solid;
+    
+}
+/* footer style */
+
+    
+.Social-container{
+    list-style: none;
+    background-color: #121212;
+    padding: 10px 35px;
+    color:#333333;
+}
+
+.social{
+    display: inline;
+    font-family: sans-serif 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 30px 20px;
+    
+    box-sizing: border-box;
+   
+}
+
+.copyrite-web-designer{
+    line-height: 20.0px;
+    background-color:#292929;
+    font-size: 12px;
+    text-align: center;
+}
+
